@@ -121,7 +121,12 @@ Task T{N} Start
 
 ## Applied to Burrow (iterative-work skill)
 
-Same verification hierarchy applied to `/Users/lawhorne/Repos/burrow`:
+Same verification hierarchy applied to `/Users/lawhorne/Repos/burrow`.
+
+**Repository reinitialized:**
+- Deleted `.git` directory
+- Reinitialized as `iterative-work`
+- Pushed to `github.com:foxtrottwist/Iterative-work.git`
 
 ### Files Created
 - `references/verification.md` — Verification hierarchy adapted for knowledge work
@@ -148,3 +153,31 @@ Same verification hierarchy applied to `/Users/lawhorne/Repos/burrow`:
 > "The verification phase is really more of the code review phase."
 
 > "Two independent agents, same mandate ('complete this task'), both concluding done = implementation consensus."
+
+---
+
+## Pending Verification Task
+
+After session restore, verify changes in both repositories:
+
+### iterative-development (`/Users/lawhorne/Repos/groundhog`)
+- [ ] SKILL.md references `references/verification.md`
+- [ ] SKILL.md references `agents/verify.md`
+- [ ] SKILL.md has "Task Completion Gates" section
+- [ ] `references/state.md` has `confirming` and `verifying` statuses
+- [ ] `references/prompts.md` has "Mandatory Confirmation Pass" section
+- [ ] `.github/workflows/release.yml` excludes README.md
+- [ ] Remote: `github.com:foxtrottwist/iterative-development.git`
+
+### iterative-work (`/Users/lawhorne/Repos/burrow`)
+- [ ] SKILL.md references `references/verification.md`
+- [ ] SKILL.md references `agents/verify.md`
+- [ ] SKILL.md has "Phase Completion Gates" section
+- [ ] `references/state.md` has `confirming` and `verifying` statuses
+- [ ] `references/prompts.md` has "Mandatory Confirmation Pass" section
+- [ ] `.github/workflows/release.yml` excludes README.md, outputs `iterative-work-*.skill`
+- [ ] All files use `.iterative-work/` not `.burrow/`
+- [ ] Remote: `github.com:foxtrottwist/Iterative-work.git`
+
+### Skill-creator installed globally
+- [ ] `~/.claude/skills/skill-creator/` exists with SKILL.md and scripts

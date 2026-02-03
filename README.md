@@ -1,3 +1,8 @@
+> **⚠️ DEPRECATED**: Replaced by the unified [`iterative`](https://github.com/foxtrottwist/iterative) skill.
+> Use `/iter` instead — it auto-detects development vs knowledge work mode.
+
+---
+
 # Iterative Development
 
 Development task orchestration using stateless iteration loops.

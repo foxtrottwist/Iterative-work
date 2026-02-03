@@ -1,7 +1,11 @@
 ---
 name: iterative-work
-description: Knowledge work orchestration using stateless iteration. Handles research synthesis, document production, analysis, and planning workflows. Decomposes into phases, runs each through fresh-context iterations until completion. Supports resumption after interruption.
+description: "[DEPRECATED] Use /iter instead. Knowledge work orchestration using stateless iteration."
 ---
+
+> **DEPRECATED**: Replaced by the unified `iterative` skill.
+> Use `/iter` instead — it auto-detects development vs knowledge work mode.
+> See: https://github.com/foxtrottwist/iterative
 
 # Iterative Work
 
